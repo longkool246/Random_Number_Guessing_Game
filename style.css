@@ -1,6 +1,10 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
+  background-image: url('https://i.pinimg.com/736x/6f/a9/c3/6fa9c33211ce7c08f2cc4fcef6144b7d.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
   background-color: #f4f4f4;
   margin: 0;
   padding: 0;
@@ -51,3 +55,26 @@ input {
 #submitButton:hover {
   background-color: #45a049;
 }
+
+#result {
+  display: inline-flex;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#message {
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.8);
+  background-image: linear-gradient(to right, rgba(50, 173, 170, 0.8), rgba(255, 105, 97, 0.8));
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
