@@ -8,15 +8,14 @@ body {
   background-color: #f4f4f4;
   margin: 0;
   padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
   max-width: 600px;
-  margin: 50px auto;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
 }
 
 h1 {
@@ -24,7 +23,7 @@ h1 {
 }
 
 p {
-  color: #666;
+  font-size: 24px;
 }
 
 label {
@@ -56,8 +55,13 @@ input {
   background-color: #45a049;
 }
 
+#result-container {
+  display: flex;
+  flex-direction: column; /* Đặt chiều dọc */
+  align-items: center; /* Canh giữa theo chiều dọc */
+}
+
 #result {
-  display: inline-flex;
   margin-top: 20px;
   font-size: 20px;
   font-weight: bold;
@@ -68,7 +72,6 @@ input {
 }
 
 #message {
-  display: inline-flex;
   font-size: 16px;
   font-weight: bold;
   color: rgba(255, 255, 255, 0.8);
@@ -77,4 +80,3 @@ input {
   padding: 10px;
   border-radius: 8px;
 }
-
